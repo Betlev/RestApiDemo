@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+api_call:
+    path: api/{socialMedia<\w+>}/{clientMethod<\w+>}
+    controller: App\Controller\FrontController::dispatch
