@@ -1,3 +1,6 @@
+**NOTE: This is a simple application demo and  is not intended for use under any circumstances**
+
+
 **Usage**
 
 GET: api/twitter/lastTweetsFromUser?username=[user_name]&num_tweets=[num_of_tweets]
